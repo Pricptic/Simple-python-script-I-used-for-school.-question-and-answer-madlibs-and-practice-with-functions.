@@ -1,0 +1,74 @@
+import time
+
+def is_these_things(name1, age, gender):
+    if age >= 12:
+        print("Okay, you're good to go.")
+    else:
+      print("Unfortunately we can't let you through, due to age.")
+    if name1 in ['Mekhi']:
+      print(f"Hey, welcome back {name1}, I hear that you are still {age}, it must suck right?")
+    if gender in ['male', 'female']:
+      print("Okay, here it looks like you are " + gender)
+    else:
+      ("Okay, you do not have a valid gender, and our system cannot recognize it. We will let you continue.")
+
+is_these_things("Mekhi", 12, "male")
+
+hobbies = input("Give me two hobbies please.")
+print(f"I would love to {hobbies} with you sometime!")
+gaming = input("If you do play games, what games do you play?")
+print("Oh, some of my family members play " + gaming)
+sports = input("Do you play any sports?")
+print("Oh, I hear that " + sports + "can be fun and dangerous at the same time!")
+
+is_these_things("Mekhi", 12, "male")
+
+print("Okay, let's play a game. This game will be something called a madlibs game. I ask a question or 2 or 1000 I don't know, and then I give you a weird wonky sentence that fits.")
+
+name333 = input("What is your name")
+celebrity = input("Name a celebrity")
+favorite_color = input("Name your favorite color")
+favorite_superhero = input("Name your favorite super hero")
+left_or_right_handed = input("Are you left or right handed?")
+
+print(f"My name is {name333} and the celebrity I chose is {celebrity}")
+time.sleep(1.5)
+print("Calculating....")
+time.sleep(3)
+print(f"I really like a lot of colors but my favorite of all is {favorite_color}, I just love the way it looks.")
+time.sleep(1.5)
+print("Calculating....")
+time.sleep(1.5)
+print("Calculating....")
+time.sleep(3)
+print(f"I have seen tons of Marvel and DC movies but out of all of them my favorite super hero is {favorite_superhero}, because his powers are really really cool to see and I would love to have them myself.")
+print("Calculating....")
+time.sleep(1.5)
+print("Calculating....")
+time.sleep(3)
+print(f"Oh, and I really like to read and write but since im {left_or_right_handed} handed writing with the opposite hand is hard.")
+
+time.sleep(3)
+print("Okay, that was fun, but this was just to prove to my current or future stem teacher that I am far from beginner and I am heading into the late stages of intermediate. Goodbye, fellow playres! Hope my code ran well for you (it does i checked xD)")
+
+
+def cool_person_traits(cool, funny, smart, kind, name11):
+  if cool in ['cool']:
+    print("I always knew you were!")
+  time.sleep(3)
+  if funny in ['VERY funny']:
+    funny = input("Oh, you think so too? y/n")
+    if funny == "y":
+      print("Hahaha, you always believed anything I said ¯\_(ツ)_/¯")
+    if funny == "n":
+      print("awh, that's fine.")
+  time.sleep(3)
+  if smart in ['smart']:
+    print("Yes, you are not smol brain \o/")
+  time.sleep(3)
+  if kind in ['kind']:
+    print("Hm, you always did take care of other people before yourself.")
+
+cool_person_traits("cool", "VERY funny", "smart", "kind", "mekhi")
+
+
